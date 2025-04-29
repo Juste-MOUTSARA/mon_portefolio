@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: white;
+     
+}
+
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main{
+    margin: 20px;
+    padding: 4%;
+    background: linear-gradient(90deg, rgb(162, 162, 240), rgb(189, 227, 241));
+}
+
+header{
+    background-color:white;
+    height: 50px;
+    display: flex;  
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+   
+}
+nav{
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 20px;
+   
+}
+
+section{    
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 650px;
+    margin: auto   
+       
+}
+
+section:hover{
+    border: 3px solid skyblue;   
+    box-shadow: 6px 6px 20px rgba(19, 19, 240, 0.4) ;     
+}
+
+
+.conteneur{
+    display: flex;
+    justify-content: space-around;
+     
+ }  
+
+ .competances{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    margin-left: 50px;
+    width: 590px ;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;     
+}
+
+.cv{
+    background-color:white;
+    border-radius: 10px;
+    width: 210px;
+    height: 30px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-right: 50px ;
+    margin-top: 20px;
+}
+
+.photo{
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.download{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+
+h2{
+    margin-left: -100px;
+    margin-bottom: 50px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #fff;
+}
+
+em{
+    font-style: normal;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer{
+    height: 50px;
+    display: flex;  
+    justify-content: flex-start;
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+  
+}
+
+#fondicone:hover{
+    opacity: 0.5;
+}
+ 
+.margelogo{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.margelogo1{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: -14px;
+}
