@@ -39,21 +39,23 @@ section{
     padding-right: 100px;
     padding-bottom: 10px;
     padding-top: 10px;
-    width: 650px;
-    margin: auto   
+    width: 750px;
+    margin: auto ;
+    border: 3px solid skyblue;   
+    box-shadow: 6px 6px 20px rgba(19, 19, 240, 0.4) ;  
        
 }
 
-section:hover{
+/* section:hover{
     border: 3px solid skyblue;   
     box-shadow: 6px 6px 20px rgba(19, 19, 240, 0.4) ;     
-}
+} */
 
 
 .conteneur{
     display: flex;
-    justify-content: space-around;
-     
+    justify-content: space-around; 
+    margin-left: 50px;  
  }  
 
  .competances{
@@ -100,8 +102,8 @@ h2{
 
 em{
     font-style: normal;
-    font-size: x-large;
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 footer{
